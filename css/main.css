@@ -1,0 +1,14 @@
+.body{
+    font-family: "黑体",serif;
+}
+.container {
+    width:80%;
+    margin-top: 20px;
+}
+.panel-heading {
+    font-size: 18px;
+    font-family: "黑体",serif;
+}
+.input-group-addon {
+    font-size: 16px;
+}

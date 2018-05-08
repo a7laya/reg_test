@@ -1,8 +1,9 @@
-.body{
+body{
     font-family: "黑体",serif;
 }
 .container {
     width:80%;
+    min-width: 350px;
     margin-top: 20px;
 }
 .panel-heading {
@@ -11,4 +12,22 @@
 }
 .input-group-addon {
     font-size: 16px;
+}
+
+.panel-footer {
+    color:#666;
+}
+.panel-footer p,
+.panel-footer span
+ {
+    color: #ccc;
+}
+
+.panel-footer span:last-child {
+    /* font-weight: bold; */
+    color: rgba(255, 0, 0, .5);
+}
+.result {
+    display: inline-block;
+    color: #337ab7;
 }
